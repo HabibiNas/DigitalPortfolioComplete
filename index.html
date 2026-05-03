@@ -5,137 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nassim Boutayeb | Digital Portfolio</title>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.6;
-      background-color: #f4f6f8;
-      color: #222;
-    }
-
-    header {
-      background-color: #111827;
-      color: white;
-      padding: 50px 20px;
-      text-align: center;
-    }
-
-    header h1 {
-      font-size: 2.4rem;
-      margin-bottom: 10px;
-    }
-
-    header p {
-      font-size: 1.1rem;
-      color: #d1d5db;
-    }
-
-    nav {
-      background-color: #1f2937;
-      padding: 15px;
-      text-align: center;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    .container {
-      width: 90%;
-      max-width: 1050px;
-      margin: 30px auto;
-    }
-
-    section {
-      background-color: white;
-      padding: 30px;
-      margin-bottom: 30px;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-    }
-
-    h2 {
-      color: #111827;
-      margin-bottom: 15px;
-      border-bottom: 2px solid #d1d5db;
-      padding-bottom: 8px;
-    }
-
-    h3 {
-      color: #1f2937;
-      margin-top: 20px;
-      margin-bottom: 8px;
-    }
-
-    p {
-      margin-bottom: 15px;
-    }
-
-    ul {
-      margin-left: 25px;
-      margin-bottom: 15px;
-    }
-
-    .button {
-      display: inline-block;
-      background-color: #111827;
-      color: white;
-      padding: 10px 16px;
-      text-decoration: none;
-      border-radius: 6px;
-      margin-top: 10px;
-    }
-
-    .button:hover {
-      background-color: #374151;
-    }
-
-    iframe, video {
-      width: 100%;
-      max-width: 800px;
-      height: 450px;
-      margin-top: 15px;
-      border-radius: 8px;
-      border: none;
-    }
-
-    footer {
-      text-align: center;
-      padding: 25px;
-      background-color: #111827;
-      color: white;
-      margin-top: 30px;
-    }
-
-    @media (max-width: 700px) {
-      nav a {
-        display: block;
-        margin: 10px 0;
-      }
-
-      header h1 {
-        font-size: 2rem;
-      }
-
-      iframe, video {
-        height: 260px;
-      }
-    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, Helvetica, sans-serif; line-height: 1.6; background-color: #f4f6f8; color: #222; }
+    header { background-color: #111827; color: white; padding: 50px 20px; text-align: center; }
+    header h1 { font-size: 2.4rem; margin-bottom: 10px; }
+    header p { font-size: 1.1rem; color: #d1d5db; }
+    nav { background-color: #1f2937; padding: 15px; text-align: center; position: sticky; top: 0; z-index: 100; }
+    nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    .container { width: 90%; max-width: 1050px; margin: 30px auto; }
+    section { background-color: white; padding: 30px; margin-bottom: 30px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+    h2 { color: #111827; margin-bottom: 15px; border-bottom: 2px solid #d1d5db; padding-bottom: 8px; }
+    h3 { color: #1f2937; margin-top: 20px; margin-bottom: 8px; }
+    p { margin-bottom: 15px; }
+    .button { display: inline-block; background-color: #111827; color: white; padding: 10px 16px; text-decoration: none; border-radius: 6px; margin-top: 10px; }
+    .button:hover { background-color: #374151; }
+    video { width: 100%; max-width: 800px; height: auto; margin-top: 15px; border-radius: 8px; }
+    footer { text-align: center; padding: 25px; background-color: #111827; color: white; margin-top: 30px; }
+    @media (max-width: 700px) { nav a { display: block; margin: 10px 0; } header h1 { font-size: 2rem; } }
   </style>
 </head>
 <body>
@@ -143,7 +30,6 @@
     <h1>Nassim Boutayeb</h1>
     <p>Information Technology Student | Digital Portfolio</p>
   </header>
-
   <nav>
     <a href="#about">About Me</a>
     <a href="#instructions">Instructions</a>
@@ -151,93 +37,48 @@
     <a href="#proposal">Proposal</a>
     <a href="#contact">Contact</a>
   </nav>
-
   <div class="container">
     <section id="about">
       <h2>About Me</h2>
-      <p>
-        I am an Information Technology student at the University of Central Florida with a strong interest in technology, problem-solving, and digital development. Through my coursework, I have developed skills in technical communication, programming, data analysis, and project organization.
-      </p>
-      <p>
-        This portfolio showcases my work from this course and highlights my ability to present information clearly, professionally, and in a way that is easy to understand. My goal is to continue building both my technical and communication skills so I can apply them in real-world professional environments.
-      </p>
+      <p>I am an Information Technology student at the University of Central Florida with a strong interest in technology, problem-solving, and digital development. Through my coursework, I have developed skills in technical communication, programming, data analysis, and project organization.</p>
+      <p>This portfolio showcases my work from this course and highlights my ability to present information clearly, professionally, and in a way that is easy to understand. My goal is to continue building both my technical and communication skills so I can apply them in real-world professional environments.</p>
     </section>
-
     <section id="instructions">
       <h2>Instructions Assignment</h2>
-      <p>
-        This project focused on creating clear and effective instructions for completing a specific task. The goal was to organize information in a way that was easy to follow, visually clear, and useful for a wide audience. In the revised version, I focused on improving clarity, formatting, and overall readability.
-      </p>
-
-      <h3>Project File</h3>
-      <p>
-        Add your revised Instructions Assignment here. You can either paste the text directly into this section or upload the file to your GitHub repository and link it below.
-      </p>
+      <p>This project focused on creating clear and effective instructions for completing a specific task. The goal was to organize information in a way that was easy to follow, visually clear, and useful for a wide audience. In the revised version, I focused on improving clarity, formatting, and overall readability.</p>
       <a class="button" href="instructions.pdf" target="_blank">View Instructions Assignment</a>
     </section>
-
     <section id="professional">
       <h2>Resume, Cover Letter, and Mini Interview</h2>
-      <p>
-        This section includes my resume, cover letter, and short introduction video. These materials show my professional qualifications, communication skills, and preparation for future career opportunities.
-      </p>
-
+      <p>This section includes my resume, cover letter, and short introduction video. These materials show my professional qualifications, communication skills, and preparation for future career opportunities.</p>
       <h3>Resume</h3>
-      <p>
-        Information Technology student with experience in data analysis, web performance tracking, requirements gathering, and technical coursework involving programming, databases, networking, and system design.
-      </p>
+      <p>Information Technology student with experience in data analysis, web performance tracking, requirements gathering, and technical coursework involving programming, databases, networking, and system design.</p>
       <a class="button" href="resume.pdf" target="_blank">View Resume</a>
-
       <h3>Cover Letter</h3>
-      <p>
-        Add your revised cover letter here, or upload it as a PDF and link it below.
-      </p>
+      <p>This cover letter introduces my background as an Information Technology student and connects my technical coursework, work experience, and professional goals.</p>
       <a class="button" href="cover-letter.pdf" target="_blank">View Cover Letter</a>
-
       <h3>Mini Interview / Introduction Video</h3>
-      <p>
-        This video provides a short introduction about my background, education, and professional goals.
-      </p>
-
-      <!-- Option 1: If your video file is uploaded directly to GitHub, rename it to intro-video.mp4 -->
+      <p>This video provides a short introduction about my background, education, and professional goals.</p>
       <video controls>
         <source src="intro-video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-
-      <!-- Option 2: If you upload your video to YouTube, replace the video section above with this iframe:
-      <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allowfullscreen></iframe>
-      -->
     </section>
-
     <section id="proposal">
       <h2>Proposal Assignment</h2>
-      <p>
-        This proposal identifies a common problem faced by students and presents a structured solution. The assignment emphasizes organization, clarity, and professional communication. In this revised version, I focused on making the problem, solution, and benefits easier to understand.
-      </p>
-
+      <p>This proposal identifies a common problem faced by students and presents a structured solution. The assignment emphasizes organization, clarity, and professional communication. In this revised version, I focused on making the problem, solution, and benefits easier to understand.</p>
       <h3>Improving Student Productivity Through a Real-Time Study Space Finder</h3>
-      <p>
-        Students at large universities often struggle to find available study spaces because many campus resources do not provide live information about crowding, noise levels, or available seating. This can waste time and make it harder for students to stay productive during busy parts of the day.
-      </p>
-      <p>
-        The proposed solution is a real-time study space finder that allows students to check study locations before walking across campus. The platform would show live occupancy, noise levels, available amenities, and alternative locations when one area is full.
-      </p>
-      <p>
-        This solution would help students save time, reduce frustration, and find better places to study. By giving students clearer information, the university can improve the overall student experience and support academic success.
-      </p>
+      <p>Students at large universities often struggle to find available study spaces because many campus resources do not provide live information about crowding, noise levels, or available seating. This can waste time and make it harder for students to stay productive during busy parts of the day.</p>
+      <p>The proposed solution is a real-time study space finder that allows students to check study locations before walking across campus. The platform would show live occupancy, noise levels, available amenities, and alternative locations when one area is full.</p>
+      <p>This solution would help students save time, reduce frustration, and find better places to study. By giving students clearer information, the university can improve the overall student experience and support academic success.</p>
       <a class="button" href="proposal.pdf" target="_blank">View Full Proposal</a>
     </section>
-
     <section id="contact">
       <h2>Contact</h2>
       <p><strong>Email:</strong> nboutayeb0601@gmail.com</p>
       <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/nassim-boutayeb-391905286/" target="_blank">linkedin.com/in/nassim-boutayeb-391905286</a></p>
     </section>
   </div>
-
-  <footer>
-    <p>&copy; 2026 Nassim Boutayeb | Digital Portfolio</p>
-  </footer>
+  <footer><p>&copy; 2026 Nassim Boutayeb | Digital Portfolio</p></footer>
 </body>
 </html>
